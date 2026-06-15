@@ -10,7 +10,8 @@
 
 .hero h1 {
   font-size: 3rem;
-  margin-bottom: 20px;
+  line-height: 1.2;
+  word-wrap: break-word;
 }
 
 .hero h2 {
@@ -43,4 +44,16 @@
 .hero button:hover {
   opacity: 0.8;
   transform: translateY(-3px);
+}
+
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .hero h2 {
+    font-size: 2rem;
+    text-align: center;
+  }
 }
